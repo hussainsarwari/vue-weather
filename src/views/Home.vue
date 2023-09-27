@@ -1,6 +1,6 @@
 <template>
     <div id="home">
-        <img id='image' src="../assets/images/12.jpg" alt="background">
+        <img id='image' src="../assets/images/5.jpg" alt="background">
     
    <Message/>
 <Dashbord/>
