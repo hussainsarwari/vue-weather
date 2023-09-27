@@ -3,16 +3,20 @@
         <Svg item="3" id="svg"></Svg>
        
         <Todayweather></Todayweather>
+        <Fivedayforecast/>
+
     </div>
 </template>
 
 <script>
 import Svg from './Svg.vue';
 import Todayweather from './Todayweather.vue';
+import Fivedayforecast from './Fivedayforecast.vue';
     export default {
         components:{
             Svg,
-            Todayweather
+            Todayweather,
+            Fivedayforecast
         }
         
     }
