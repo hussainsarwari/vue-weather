@@ -1,7 +1,9 @@
 <template>
   <div id="dashbord">
 <input type="text" name="search" id="search" placeholder="Search">
-<h4>Kabul, Afghanistan</h4>
+<h4>Kabul, Afghanistan
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+</h4>
 <div id="text">
   <h5>Wind Speed</h5>
 <h3>10.3 km/h</h3>
@@ -22,6 +24,14 @@
 </script>
 
 <style scoped>
+h4 svg{
+  width: 1.3em;
+    position: absolute;
+    top: -0.2em;
+    left: 1em;
+    fill: #fff;
+
+}
 #submit{
     position: relative !important;
     top: 0px !important;
@@ -91,14 +101,14 @@ div#text{
   color: #fff;
 }
 h4{
+  text-align: center;
   width: 100%;
     color: #fff;
     text-transform: capitalize;
     font-size: 0.9em;
     position: relative;
     font-family: sans-serif;
-    border-bottom: 3px white;
-    border-bottom-style: dashed;
+    border-bottom: 3px white solid;
     padding-bottom: .5em;
     height: 1.4em;
     bottom: 9em;

@@ -1,6 +1,6 @@
 <template>
     <div id="weather">
-        <Svg id="svg"></Svg>
+        <Svg item="3" id="svg"></Svg>
        
         <Todayweather></Todayweather>
     </div>
