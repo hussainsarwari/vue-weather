@@ -11,13 +11,22 @@
 <h5>Humidity</h5>
 <h3>50%</h3>
 </div>
-<span  class='dem numb'>22 <span  class='s'> &#8451  |</span><span class='s'> &#8457</span></span>
+<span  class='dem numb'><h3 style="display:inline;">22</h3 >  <span  class='s'> &#8451</span></span>
 <input type="submit" id="submit" value="Search">
 
   </div>
 </template>
 
 <script>
+// import {xmlhttpRequest} from '../../public/callapi.js';
+
+// let obj=new xmlhttpRequest();
+// obj.makeRequest()
+
+
+
+
+
   export default {
     
   }
